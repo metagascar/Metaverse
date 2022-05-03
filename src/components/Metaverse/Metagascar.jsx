@@ -60,15 +60,15 @@ const Metagascar = ({ connectToMetamask }) => {
           <img id="wall" src="https://view.metagascar.com/images/house.png" />
           <img id="street" src="https://view.metagascar.com/images/line.street.png" />
           <template id="my-template">
-            <a-entity>
-              <a-sphere color="#f00"></a-sphere>
+            <a-entity scale="0.1 0.1 0.1" >
+              <a-sphere color="#f00" ></a-sphere>
             </a-entity>
           </template>
         </a-assets>
         <a-entity environment="ground: noise; preset: forest; lightPosition: 1 5 -2; groundColor: green; ground: flat; groundTexture: walkernoise;dressing: mushrooms; dressingAmount: 100; playArea: 440;"></a-entity>
        {items}
 
-        <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls scale="0.1 0.1 0.1" >
+        <a-entity id="player" network="template:#my-template;" camera wasd-controls look-controls >
         </a-entity>
     </a-scene>
 
