@@ -14,8 +14,6 @@ Metagascar Properties on Polygon https://polygonscan.com/token/0xff0d44586aa0904
 
 Twitter : https://twitter.com/metagascarnft
 
-Developer Twitter : https://twitter.com/metagascar_
-
 # Running DAPP
 
 npm install
