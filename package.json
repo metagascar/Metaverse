@@ -52,7 +52,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "nice-color-palettes": "^3.0.0",
-    "react-three-fiber": "^6.0.13",
+    "react-three-fiber": "6.0.13",
     "three": "^0.130.1",
     "web-vitals": "^1.1.2"
   },
